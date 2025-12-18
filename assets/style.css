@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0b0f1a;
+  color: #e5e7eb;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(10px);
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.nav a {
+  color: #e5e7eb;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #111827, #020617);
+}
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+.hero-buttons .btn {
+  margin: 10px;
+  padding: 14px 32px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
+  border: none;
+  color: #020617;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero-buttons .secondary {
+  background: linear-gradient(135deg, #22d3ee, #6366f1);
+}
+.section {
+  padding: 80px 50px;
+  text-align: center;
+}
+.dark {
+  background: #020617;
+}
+.service-list, .jobs {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.service-list li, .jobs li {
+  padding: 12px 0;
+  font-size: 16px;
+}
+.footer {
+  background: #000;
+  padding: 25px;
+  text-align: center;
+  font-size: 14px;
+}
+
